@@ -1,4 +1,7 @@
 .venv
 __pycache__/
 .DS_Store
+
+# Don't update artifacts (but leaving the originals for reference... for now)
 results*/
+*.dat
