@@ -588,7 +588,7 @@ class MagicCardDetector:
     MTG card detector class.
     """
 
-    def __init__(self, output_path):
+    def __init__(self, output_path = None):
         self.reference_images = []
         self.test_images = []
         self.output_path = output_path
